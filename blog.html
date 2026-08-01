@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - AI & eCommerce Tools Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="icon" href="assets/logos/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo"><a href="index.html"><i class="fas fa-robot"></i> ToolHub</a></div>
+      <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tools.html">AI Tools</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="compare.html">Compare</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button class="search-toggle" id="searchToggle"><i class="fas fa-search"></i></button></li>
+        <li><button class="dark-toggle" id="darkToggle"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </div>
+    <div class="search-bar-container" id="searchBarContainer">
+      <div class="container">
+        <input type="text" id="globalSearch" placeholder="Search tools..." />
+        <button id="searchClose"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Blog</h1>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <img src="assets/images/blog1.jpg" alt="Blog post" loading="lazy" />
+            <h3>Top 10 AI Tools for 2026</h3>
+            <p>Discover the most innovative AI tools transforming businesses this year.</p>
+            <a href="#">Read More →</a>
+          </article>
+          <article class="blog-card">
+            <img src="assets/images/blog2.jpg" alt="Blog post" loading="lazy" />
+            <h3>How to Choose the Right eCommerce Platform</h3>
+            <p>A comprehensive guide to selecting the best platform for your online store.</p>
+            <a href="#">Read More →</a>
+          </article>
+          <article class="blog-card">
+            <img src="assets/images/blog3.jpg" alt="Blog post" loading="lazy" />
+            <h3>SEO Trends to Watch in 2026</h3>
+            <p>Stay ahead of the curve with these essential SEO strategies.</p>
+            <a href="#">Read More →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="compare.html">Compare</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="tools.html?category=ai">AI</a></li>
+            <li><a href="tools.html?category=shopify">Shopify</a></li>
+            <li><a href="tools.html?category=seo">SEO</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ToolHub. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
